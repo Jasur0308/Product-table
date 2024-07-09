@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hometask</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <form id="products">
+        <div class="table__top">
+            <input type="text" id="nameProduct" placeholder="Product Name">
+            <input type="text" id="amount" placeholder="Amount">
+            <input type="text" id="price" placeholder="Price">
+            <button id="added">Add Product</button>
+            <button id="deleted">Delete Product</button>
+        </div>
+        <table id="productTable" border="1" style="text-align: center;">
+            <thead>
+                <tr>
+                    <th>№</th>
+                    <th>Name</th>
+                    <th>Amount</th>
+                    <th>Price</th>
+                </tr>
+            </thead>
+            <tbody>
+                
+            </tbody>
+        </table>
+        <div class="calculate">
+            <button id="total">Calculate Total</button>
+            <input type="text" id="totalSum" readonly placeholder="Total Sum">
+        </div>
+    </form>    
+
+    <script src="./script/app.js"></script>
+</body>
+</html>

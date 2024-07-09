@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Kode Mono", monospace;
+}
+
+#products {
+    margin: 0 auto;
+    margin-top: 50px;
+    max-width: 1200px;
+    min-height: 600px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    border-radius: 10px;
+    padding: 10px;
+    background-image: linear-gradient(to top, lightgrey 0%, lightgrey 1%, #e0e0e0 26%, #efefef 48%, #d9d9d9 75%, #bcbcbc 100%);
+}
+
+input {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    padding: 15px;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+}
+
+button {
+    border: none;
+    cursor: pointer;
+    padding: 15px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    border-radius: 10px;
+    color: white;
+    transition: 0.3s;
+}
+
+button:active {
+    transform: scale(0.9);
+}
+
+#added {
+    background-color: red;
+}
+
+#deleted {
+    background-color: blue;
+}
+
+.table__top {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.table {
+    margin-top: 30px;
+    width: 100%;
+    display: flex;
+}
+
+table {
+    margin-top: 20px;
+    border: 1px solid gray;
+    width: 100%;
+}
+
+th {
+    border: 1px solid gray;
+}
+
+.calculate {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+#total {
+    background-color: green;
+    width: 90%;
+    padding: 15px;
+}
+
+#totalSum {
+    width: 10%;
+}
